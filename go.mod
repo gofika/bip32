@@ -1,13 +1,13 @@
 module github.com/gofika/bip32
 
-go 1.25
+go 1.26.10
 
 require (
-	github.com/btcsuite/btcd/btcec/v2 v2.5.0
+	github.com/btcsuite/btcd/btcec/v2 v2.5.1
 	github.com/stretchr/testify v1.12.1
 )
 
 require (
-	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.4.0 // indirect
+	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.4.1 // indirect
 	go.yaml.in/yaml/v3 v3.0.5 // indirect
 )
